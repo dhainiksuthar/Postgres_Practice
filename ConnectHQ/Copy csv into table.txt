@@ -1,0 +1,4 @@
+\COPY adp_planogram(Branch, Route, Location, Place, telemetry_id, asset_id, asset_type, asset_class, selection, group_, item, item_code, current_level, 
+   par, depletion_limit, capacity, price, desired_price, has_price_mismatch, avg_weekly_vends, days_since_last_sale, 
+   has_pending_planogram_change, column_number, quantity) 
+FROM '/home/dhainik/ConnectHQ/csv/ADP - Current Planogram Selection Quality 2023-04-06 0748.csv' DELIMITER ',' CSV;
